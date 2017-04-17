@@ -1,0 +1,32 @@
+import cv2
+import numpy as np
+
+cap=cv2.VideoCapture(0)
+kernel = np.ones((5,5),np.uint8)
+
+if(cap.isOpened() != 1 ) :
+	cap.open()
+
+while(1) :
+	ret ,frame = cap.read()
+	blur=cv2.blur(frame,(5,5))
+	hsv=cv2.cvtColor(blur, cv2.COLOR_BGR2HSV)
+
+	lower_cig=np.array([12,105,64])
+	upper_cig=np.array([25,220,210])
+
+	binary = cv2.inRange(hsv,lower_cig,upper_cig)
+	mask = closing = cv2.morphologyEx(binary, cv2.MORPH_CLOSE, kernel)
+	result = cv2.bitwise_and(frame,frame,mask=mask)
+
+	cv2.imshow('original',frame)
+	cv2.imshow('binary',binary)
+	cv2.imshow('mask',mask)
+	cv2.imshow('final',result)
+
+	k=cv2.waitKey(5) & 0xFF
+	if k == 27 :
+		break
+
+cv2.destroyAllWindows()
+

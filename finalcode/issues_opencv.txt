@@ -1,0 +1,5 @@
+buffer length 
+
+
+iCameraAlphaStripping: using alpha-stripping to convert to non-alpha format; you may find the equivalent alpha format faster
+  "using alpha-stripping to convert to non-alpha "

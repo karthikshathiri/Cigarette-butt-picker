@@ -1,0 +1,56 @@
+# raspberrypi setup : 
+          https://www.raspberrypi.org/documentation/setup/
+          https://www.raspberrypi.org/help/noobs-setup/
+  
+	- It is recommended to download NOOBS.
+sudo raspi-config
+
+https://www.youtube.com/user/TheRaspberryPiGuy
+https://www.youtube.com/user/GeekGurlDiaries
+https://www.youtube.com/user/RaspberryPiBeginners
+	- configure basic settings such as wifi , time ,keyboard ,etc
+	- enable ssh in raspi-config
+	- might as well need to edit config.txt file in boot folder
+	-install tightvcnserver on pi as well as desktop for acessing raspi  remotely
+
+https://www.raspberrypi.org/documentation/configuration/config-txt.md
+https://www.raspberrypi.org/resources/teach/
+
+https://www.raspberrypi.org/documentation/remote-access/
+
+download conquring command line from magpi website
+https://www.raspberrypi.org/magpi/issues/
+
+sudo apt-get install ipython3
+pip3 install ipython
+
+
+# to learn 
+https://www.raspberrypi.org/learning/visualising-sorting-with-python/
+https://www.raspberrypi.org/learning/networking-lessons/
+https://www.raspberrypi.org/learning/coder-html-css-lessons/
+https://www.raspberrypi.org/learning/turing-test-lessons/
+https://www.raspberrypi.org/learning/python-intro/
+https://www.raspberrypi.org/documentation/linux/
+https://www.raspberrypi.org/documentation/usage/terminal/README.md
+https://www.raspberrypi.org/documentation/usage/demos/README.md
+
+
+https://www.raspberrypi.org/documentation/hardware/camera/README.md
+http://infragram.org/
+
+
+# openCV setup :
+         http://www.pyimagesearch.com/2015/10/26/how-to-install-opencv-3-on-raspbian-jessie/
+
+http://opencv.org/
+http://www.pyimagesearch.com/
+http://picamera.readthedocs.io/en/release-1.11/#
+
+https://oscarliang.com/connect-raspberry-pi-and-arduino-usb-cable/
+http://arduino.stackexchange.com/questions/3753/how-to-send-numbers-to-arduino-uno-via-python-3-and-the-module-serial
+http://playground.arduino.cc/Interfacing/Python
+https://www.raspberrypi.org/magpi-issues/MagPi07.pdf
+
+
+pkpranavpk4@gmail.com       
